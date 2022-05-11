@@ -209,6 +209,137 @@ body {
 /*--------------------------- RESPONSIVE -------------------------------*/
 /*----------------------------------------------------------------------*/
 
-@media (min-width: 720px) {
+@media (max-width: 830px) {
+
+	.container .box_items {
+	position: relative;
+	width: 770px;
+	}
+}
+
+@media (max-width: 790px) {
+	.container .box_items {
+	position: relative;
+	width: 700px;
+	}
+
+	.container .favorite {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
+	.container .favorite .space {
+	flex-direction: column;
+	}
+}
+
+@media (max-width: 732px) {
+	.container .box_items {
+	position: relative;
+	width: 650px;
+	}
+
+	.container .favorite {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
+	.container .favorite .space {
+	flex-direction: column;
+	}
+}
+
+@media (max-width: 670px) {
+	.container .box_items {
+	position: relative;
+	width: 600px;
+	}
+	.container .favorite {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
+	.container .favorite .space {
+	flex-direction: column;
+	}
+}
+
+@media (max-width: 620px) {
+	.container .box_items {
+	position: relative;
+	width: 550px;
+	}
+
+	.container .favorite {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
+	.container .favorite .space {
+	flex-direction: column;
+	}
+}
+
+@media (max-width: 540px) {
+	.container .box_items {
+	position: relative;
+	width: 450px;
+	}
+
+	.container .social {
+		height: 500px;
+	}
+
+	.container .social ul {
+		display: flex;
+		flex-direction: column;
+		}
 	
+	.container .favorite {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
+	.container .favorite .space {
+	flex-direction: column;
+	}
+}
+
+@media (max-width: 500px) {
+	.container .box_items {
+	position: relative;
+	width: 400px;
+	}
+
+	.container .favorite {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
+	.container .favorite .space {
+	flex-direction: column;
+	}
+}
+
+@media (max-width: 450px) {
+	.container .box_items {
+	position: relative;
+	width: 350px;
+	}
+
+	.container .favorite {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
+	.container .favorite .space {
+	flex-direction: column;
+	}
 }
