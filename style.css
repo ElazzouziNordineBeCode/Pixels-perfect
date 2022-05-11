@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	background-color: #EBEBEB;
+}
+
+.container {
+	display: flex;
+	width: 1900px;
+	min-height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	margin: 70px 0;
+}
+.container .box_items {
+	position: relative;
+	width: 790px;
+}
+
+.header {
+	padding: 30px 30px 0 30px;
+	border-radius: 10px;
+	box-shadow: 0 2px 2px rgba(119, 119, 119, 0.5);
+}
+
+.header h1 {
+	color: #dd575f;
+	font-weight: 800;
+	font-size: 30px;
+	margin: 30px 0;
+}
+
+.header h2 {
+	color: #958c86;
+	margin-bottom: 30px;
+	font-size: 25px;
+}
+
+.header p {
+	color: #958c86;
+	font-size: 23px;
+	text-align: justify;
+}
+
+.container .header {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background: #FFFFFF;
+}
+
+.header .user {
+	display: flex;
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	border: 5px solid lightgray;
+	overflow: hidden;
+}
+
+.box_button {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box_button button {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 50px;
+	cursor: pointer;
+	background-color: #dd575f;
+	color:#fff;
+	font-size: 25px;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 15px 0;
+}
+
+/* SOLIAL */
+
+.container .social {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	background: #FFFFFF;
+	width: 100%;
+	height:260px; 
+	margin: 30px 0;
+	border-radius: 10px;
+	box-shadow: 0 2px 2px rgba(119, 119, 119, 0.5);
+}
+
+.container .social ul {
+	display: flex;
+}
+
+.container .social ul li {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	width: 150px;
+	height: 100px;
+	margin: 10px;
+}
+
+.container .social ul li a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+}
+
+.container .social ul li a .icon {
+	font-size: 45px;
+	color: #cccccc;
+}
+
+.container .social ul li a .text {
+	font-size: 25px;
+	color: #cccccc;
+}
+
+
+/* Favorite */
+
+.container .favorite {
+	width: 100%;
+	background: #fff;
+	box-shadow: 0 2px 2px rgba(119, 119, 119, 0.5);
+	border-radius: 10px;
+	margin: 30px 0;
+}
+
+.container .favorite .space {
+	position: relative;
+	display: flex;
+	align-items: center;
+	background: #FFFFFF;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.container .favorite h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #958c86;
+	margin: 30px 0;
+	padding: 20px;
+	font-size: 25px; 
+}
+
+.container .favorite .space .box_img_favorite {
+	display: flex;
+	align-items: space-between;
+}
+
+.container .favorite .space img {
+	width: 140px;
+}
+
+.container .favorite .space h3 {
+	color: #958c86;
+	margin-bottom: 10px;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .favorite .space p {
+	color: #958c86;
+	font-size: 23px;
+	text-align: justify;
+	padding: 20px;
+	font-weight: 600;
+}
