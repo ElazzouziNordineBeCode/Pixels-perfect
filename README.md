@@ -15,3 +15,9 @@ Dans le cadre d'un exercice, fait au cours de ma formation pour devenir Fulle St
 Pour cela, j'ai créer une copie parfaite d'une landing page fournis au format PNG. Voici le PNG qui nous a servie de model :
 
 ![Une maquette de la landing page a reproduire a la perfection](goal-css.png "Maquette de la landing page")
+
+### Structure de la page
+
+- J'ai commencer par créer une structure des boite sur paint pour avoir un fil conducteur. Voici le model utilié.
+
+![Maquette utiliser pour créer le pixels perfect](maquette.png "Maquette du site")
